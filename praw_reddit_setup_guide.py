@@ -37,16 +37,16 @@ if __name__ == '__main__':
 #         Fill out the form:
 #         Name your application.
 #         Select the “script” option.
-#         Note down the client ID (found underneath the app name), user agent (your username found above the app name), and the client secret.
+#         Note down the client ID (found underneath the app name), user agent (your name found above the app name), and the client secret.
 # Step 4: Input them below, and then run the cell
 
 import praw
 import pandas as pd
 
 reddit = praw.Reddit(
-    client_id='mrzgumUG-od281mSE324tA',
-    client_secret='c4A2ZYZuS55vvg4fyWrgVa09dF-3xg',
-    user_agent='Elias Martin',
+    client_id='YOUR_CLIENT_ID',
+    client_secret='YOUR_CLIENT_SECRET',
+    user_agent='YOUR_USER_AGENT',
     check_for_async=False
 )
 
